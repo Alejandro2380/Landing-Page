@@ -12,7 +12,7 @@ body {
   color: white;
 }
 
-.container1 {
+.top-container {
   display:flex;
   justify-content:space-between;
 }
@@ -31,7 +31,7 @@ body {
 
 }
 
-.bottom {
+.bottom-container {
   display: flex;
   justify-content:space-between;
   align-items: flex-end;
@@ -44,4 +44,12 @@ ul{
 a {
   text-decoration: none;
   color: white;
+}
+
+.column {
+  width: 240px;
+}
+.mid-text {
+  display:flex;
+  flex-wrap:wrap;
 }
