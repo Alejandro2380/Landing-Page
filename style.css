@@ -23,3 +23,25 @@ body {
   gap: 16px;
   margin-right: 10px;
 }
+.left{
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bolder;
+
+}
+
+.bottom {
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-end;
+}
+
+ul{
+  list-style-type:none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
