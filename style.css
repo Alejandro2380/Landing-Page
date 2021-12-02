@@ -53,3 +53,8 @@ a {
   display:flex;
   flex-wrap:wrap;
 }
+img {
+  width: 250px;
+  height: 150px;
+  margin-right: 10px;
+}
