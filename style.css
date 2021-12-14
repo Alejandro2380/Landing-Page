@@ -144,18 +144,15 @@ img {
   height: 50px;
 }
 
-.text {
+.text-1,.text-2, .text-3, .text-4 {
   color: black;
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: center;
-  align-items: center;
   width: 150px;
-  margin-left: 0px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 7px;
+
 }
 
-.text1 {
+.text-0 {
   color:white;
 }
 .box{
@@ -182,6 +179,7 @@ img {
   font-family: italic;
   color:#1F2937;
   width: 700px;
+  margin-top: 18px;
 }
 
 
@@ -206,6 +204,11 @@ button {
 
 .mid-points {
   border: 5px solid #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
 
 }
 .top{
@@ -244,4 +247,21 @@ button {
 .pic {
   height: 100px;
   margin-left: 300px;
+}
+
+.mid-points, text {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+
+.text-1, .text-2 {
+  margin-left: 6px;
+}
+
+.text-3 {
+  margin-left: 13px;
+
 }
